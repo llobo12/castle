@@ -1,0 +1,213 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+}
+
+.CarouselImg img{
+	width: auto;
+  	height: 225px;
+  	max-height: 225px;
+}
+
+#myCarousel .hola{
+	background-image: url(../img/fondo1-06.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+h1{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 900;
+	font-size: 40px;
+}
+
+p{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+#logos span{
+	color: #ff5851;
+}
+
+
+#logos{
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	line-height: 1.7;
+	padding: 60px 15px 60px 15px;
+	background-color: #ffffff;
+	background-position: center center;
+	box-shadow: 0 15px 25px -7px rgba(0, 0, 0, 0.09), 0 -12px 10px -10px rgba(0, 0, 0, 0.04);
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	min-height: 1px;
+}
+
+#template{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: #414a6b;
+	color: #fff;
+}
+
+.text{
+	padding-top: 70px;
+}
+
+
+#forthem{
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+footer span{
+	color: #ff5851;
+}
+
+footer p{
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+#forthem h1{
+	color: #ff5851;
+	padding-bottom: 30px;
+}
+
+.border{
+	border-right: 1px solid rgba(0, 0, 0, 0.08);
+	margin-right: 0;
+	padding: 0 15px;
+	overflow: hidden;
+	width: 220px;
+	height: 91px;
+}
+
+.special{
+	margin-right: 0;
+	padding: 0 15px;
+	overflow: hidden;
+	width: 220px;
+	height: 91px;
+}
+
+
+footer{
+	padding: 30px 0px 30px 0px;
+	background-color: #f7f7f7;
+}
+
+footer .fa{
+	color: #8d8d8d;
+	font-size: 24px;
+	line-height: 60px;
+	width: 60px;
+	height: 60px;
+	padding: 0 10px;
+}
+
+footer .fa:hover{
+	border-radius: 100px;
+	background-color: #fff;
+	animation: icon_round_animation 0.5s;
+	color: #000;
+	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
+	transform: translateY(30px);
+	transition: 0.5s all;
+}
+
+.sticky{
+	z-index: 99999;
+}
+
+.sticky .navbar-default{
+	background-color: #fcfafa;
+	color: #fff !important;
+	z-index: 99999 !important;
+}
+
+
+.back-to-top { 
+    text-align: center; 
+    background: #000; 
+    color: #fff; 
+    display: none; 
+    width: 40px; height: 40px; line-height: 40px; 
+    font-family: "FontAwesome";
+    font-size: 20px; 
+    position: fixed; 
+    right: 70px; 
+    bottom: 15px; 
+    opacity: 0.4; 
+    -webkit-transition: all 0.5s ease; 
+    transition: all 0.5s ease; 
+    cursor: pointer; 
+    z-index: 9999; 
+	border-radius: 100%;
+}
+.back-to-top:hover { 
+    opacity: 1; 
+    text-decoration:none;
+}
+.back-to-top:before{
+    content: "\f062";
+}
+
+
+#compras{
+	background-image: url( ../img/castletemplate-05.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+#camisas .btn{
+	background-color: #fff;
+	border: 1px solid #f55;
+	color: #f55;
+	text-transform: uppercase;
+	height: 25px;
+	border-radius: 40px;
+	border-width: 2px;
+	font-family: Circular,Helvetica,Arial,sans-serif;
+	font-weight: 600;
+	font-size: 8px;
+	letter-spacing: 2px;
+}
+
+#camisas .btn:hover{
+	background-color: #f55;
+	border: 1px solid #f55;
+	color: #fff;
+}
+
+#camisas p{
+	margin: 10px 0px;
+}
+
+#camisas{
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+.color{
+	color: #ff5851;
+	padding-bottom: 50px;
+	padding-top: 10px;
+}
+
+#camisas .space{
+	padding-bottom: 30px;
+}
